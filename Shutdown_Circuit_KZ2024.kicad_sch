@@ -1876,6 +1876,12 @@
 		)
 	)
 	(junction
+		(at 163.83 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0feb8da0-11e0-4d20-9109-aade12b072b4")
+	)
+	(junction
 		(at 176.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1930,12 +1936,6 @@
 		(uuid "5ce29361-4a7e-466c-9600-ec12e8b2beef")
 	)
 	(junction
-		(at 175.26 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "706978c7-0bb1-4c4c-aa8f-b1bdbe139d0b")
-	)
-	(junction
 		(at 123.19 93.98)
 		(diameter 0)
 		(color 0 0 255 1)
@@ -1972,18 +1972,6 @@
 		(uuid "a9d3f7b7-0956-4e03-a2ea-a611fdece0ac")
 	)
 	(junction
-		(at 140.97 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac24fcd9-7254-4d7d-aa2f-983155885ba6")
-	)
-	(junction
-		(at 204.47 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b506e1fd-9723-40a8-bbe4-44f64bff21ed")
-	)
-	(junction
 		(at 88.9 91.44)
 		(diameter 0)
 		(color 0 0 255 1)
@@ -1996,22 +1984,34 @@
 		(uuid "d2cfe921-9809-436c-8f8d-c21cb52513ae")
 	)
 	(junction
+		(at 193.04 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d43098e2-9bec-4797-ad80-d842cdf5f49f")
+	)
+	(junction
 		(at 186.69 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfd264f5-4d6d-4da4-b29e-5105a0e9f8db")
 	)
 	(junction
-		(at 111.76 125.73)
+		(at 134.62 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2828b8f-e581-43e8-87ca-976f8382b5aa")
+		(uuid "e4223915-7121-4888-9d2a-99d5f88f8b15")
 	)
 	(junction
 		(at 135.89 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e43eaec5-3dc6-48be-9315-2711e48dbca7")
+	)
+	(junction
+		(at 107.95 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa56d363-b16b-4e2d-809d-703f87c7c057")
 	)
 	(wire
 		(pts
@@ -2076,6 +2076,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "0b9c0e4c-b511-49b0-84af-bc702a00e689")
+	)
+	(wire
+		(pts
+			(xy 193.04 125.73) (xy 196.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cac1097-334e-4d38-baf7-65ddef83a9f5")
 	)
 	(wire
 		(pts
@@ -2215,13 +2225,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 125.73) (xy 140.97 125.73)
+			(xy 278.13 96.52) (xy 278.13 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2ec94bd3-01f8-4605-83ab-977ba4f8084f")
+		(uuid "32c1a00e-2e86-40af-b8b9-561a17152709")
+	)
+	(wire
+		(pts
+			(xy 278.13 86.36) (xy 278.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f3b10e-8d01-4b4f-a5a8-f277f2ad0476")
 	)
 	(wire
 		(pts
@@ -2232,6 +2252,16 @@
 			(type default)
 		)
 		(uuid "3d5eabf6-f157-46a2-b7c2-27c824c37153")
+	)
+	(wire
+		(pts
+			(xy 278.13 125.73) (xy 278.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff75d90-d0b5-403b-9f3e-2298e0dd88e5")
 	)
 	(wire
 		(pts
@@ -2300,7 +2330,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 139.7) (xy 175.26 149.86)
+			(xy 163.83 139.7) (xy 163.83 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2423,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 140.97 142.24)
+			(xy 274.32 48.26) (xy 278.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77af8e08-b28c-47e3-acf3-a0e03ad3f38b")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 134.62 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2403,13 +2443,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 175.26 125.73)
+			(xy 163.83 125.73) (xy 193.04 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7aa46b4d-eb26-452e-be59-5ad4194970d5")
+		(uuid "7c2e5d40-1852-426d-984e-d517b84048d2")
 	)
 	(wire
 		(pts
@@ -2434,16 +2474,6 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 48.26) (xy 274.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed4ef1e-3747-457d-b45f-ed6cf99f5230")
-	)
-	(wire
-		(pts
 			(xy 152.4 78.74) (xy 152.4 76.2)
 		)
 		(stroke
@@ -2452,16 +2482,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "817431f3-f3c3-4673-9dc0-c8bdd22734d4")
-	)
-	(wire
-		(pts
-			(xy 227.33 125.73) (xy 245.11 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa32f9e-33e1-41cf-8dd5-554e65abfa5f")
 	)
 	(wire
 		(pts
@@ -2518,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 149.86) (xy 175.26 149.86)
+			(xy 193.04 149.86) (xy 163.83 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2546,6 +2566,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9f7a87bd-383c-45d1-9d72-e524d6f5fa50")
+	)
+	(wire
+		(pts
+			(xy 265.43 125.73) (xy 278.13 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05fc0c7-67a7-4d27-96ab-06007e17a60c")
 	)
 	(wire
 		(pts
@@ -2597,6 +2627,16 @@
 			(type default)
 		)
 		(uuid "a2b5d640-dcf7-47a1-959f-133b0f9b595b")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 134.62 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3927d2b-c05e-4821-840a-d8d8b54fcb72")
 	)
 	(wire
 		(pts
@@ -2664,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 125.73) (xy 111.76 125.73)
+			(xy 81.28 125.73) (xy 107.95 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2764,16 +2804,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "c4ecba16-0f18-4ed4-b4fe-afb194adbafa")
-	)
-	(wire
-		(pts
-			(xy 204.47 125.73) (xy 217.17 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c526b60b-3578-4b68-8785-0750f93b12e4")
 	)
 	(wire
 		(pts
@@ -2883,6 +2913,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 125.73) (xy 219.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da25be2b-993b-41b5-ac66-f85709b2eb47")
+	)
+	(wire
+		(pts
 			(xy 86.36 48.26) (xy 125.73 48.26)
 		)
 		(stroke
@@ -2900,6 +2940,16 @@
 			(type default)
 		)
 		(uuid "dc28533b-4455-4c1f-8cfd-b368e8bc0271")
+	)
+	(wire
+		(pts
+			(xy 229.87 125.73) (xy 255.27 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de761947-e3fc-4909-85dc-7a72e293d91d")
 	)
 	(wire
 		(pts
@@ -2921,6 +2971,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "e10e8646-486c-41ab-9bfb-cc77137afc94")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 163.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b3157a-8f26-40be-9b42-fe7f0f0f475a")
 	)
 	(wire
 		(pts
@@ -2966,16 +3026,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 204.47 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5831e9-a079-46bd-b780-1224dac3c964")
-	)
-	(wire
-		(pts
 			(xy 81.28 125.73) (xy 81.28 142.24)
 		)
 		(stroke
@@ -2997,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 125.73) (xy 111.76 142.24)
+			(xy 107.95 125.73) (xy 107.95 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 204.47 142.24)
+			(xy 193.04 125.73) (xy 193.04 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3049,23 +3099,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 125.73) (xy 175.26 130.81)
+			(xy 163.83 125.73) (xy 163.83 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fabd7862-debc-4b00-8bf1-96476f872cc3")
-	)
-	(wire
-		(pts
-			(xy 255.27 125.73) (xy 274.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea9934c-86d8-4537-a254-1f81c61b0e37")
 	)
 	(wire
 		(pts
@@ -3092,8 +3132,8 @@
 		(uuid 0e30cc91-c58f-4e4f-bed4-7c923de2cd0f)
 	)
 	(rectangle
-		(start 163.83 130.81)
-		(end 186.69 139.7)
+		(start 152.4 130.81)
+		(end 175.26 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -3199,7 +3239,7 @@
 	)
 	(text "PRE-CHARGE CIRCUIT"
 		(exclude_from_sim no)
-		(at 175.26 135.382 0)
+		(at 163.83 135.382 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3441,17 +3481,84 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 168.91 139.7 0)
+		(lib_id "Switch:SW_SPST")
+		(at 260.35 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "175b3207-8687-4cbf-8673-eb7a9715a38c")
+		(property "Reference" "ACCUMULATOR_VEHICLE_CONN_INTERLOCK"
+			(at 260.35 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 260.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7ddf623-53bc-4a4d-97dc-2eecd0e99f2d")
+		)
+		(pin "2"
+			(uuid "cfe55b9d-aa87-459d-aa36-8ae26e866099")
+		)
+		(instances
+			(project "Shutdown_Circuit_KZ2024"
+				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
+					(reference "ACCUMULATOR_VEHICLE_CONN_INTERLOCK")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "19e4ba99-70fe-4ca0-b388-0b36ef9aa2d1")
 		(property "Reference" "#PWR011"
-			(at 168.91 146.05 0)
+			(at 157.48 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3567,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 144.78 0)
+			(at 153.416 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 139.7 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 139.7 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 139.7 0)
+			(at 157.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,6 +3608,76 @@
 			(project ""
 				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 278.13 91.44 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2313d03a-b28c-4fbf-b151-f09d3cfa1eff")
+		(property "Reference" "MOTOR_INTERLOCK"
+			(at 276.86 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 276.86 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 278.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1620b376-27aa-4690-a0d6-391606c518f7")
+		)
+		(pin "2"
+			(uuid "69bdfae6-eee1-453d-9d45-44b321da7d4d")
+		)
+		(instances
+			(project "Shutdown_Circuit_KZ2024"
+				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
+					(reference "MOTOR_INTERLOCK")
 					(unit 1)
 				)
 			)
@@ -3576,7 +3753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 149.86 0)
+		(at 107.95 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3584,7 +3761,7 @@
 		(dnp no)
 		(uuid "4da1d5f0-54ca-4c56-b5fc-27465eb071f4")
 		(property "Reference" "#PWR010"
-			(at 111.76 156.21 0)
+			(at 107.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,7 +3770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 112.014 153.416 90)
+			(at 108.204 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 149.86 0)
+			(at 107.95 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,6 +4171,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 278.13 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72984247-6a16-483b-95a7-d05d94516de6")
+		(property "Reference" "VEHICLE_CONTROLLER_INTERLOCK"
+			(at 276.86 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 276.86 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4f1118-07df-4f60-8d71-c99d23f51d50")
+		)
+		(pin "2"
+			(uuid "5e1ae287-4495-40c7-975e-239f89350bf8")
+		)
+		(instances
+			(project "Shutdown_Circuit_KZ2024"
+				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
+					(reference "VEHICLE_CONTROLLER_INTERLOCK")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 40.64 48.26 90)
 		(unit 1)
@@ -4003,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f7df7e-6c63-400b-87b7-e8880fb28644")
-		(property "Reference" "F1"
+		(property "Reference" "10A"
 			(at 40.64 41.91 90)
 			(effects
 				(font
@@ -4055,7 +4302,7 @@
 		(instances
 			(project ""
 				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
-					(reference "F1")
+					(reference "10A")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4378,7 @@
 	)
 	(symbol
 		(lib_id "Device:ElectromagneticActor")
-		(at 111.76 147.32 0)
+		(at 107.95 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +4387,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a78a19c-f4af-4c0f-b9c4-6045b0c21663")
 		(property "Reference" "GigavacGV242BAB_2"
-			(at 115.57 144.7799 0)
+			(at 111.76 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4396,7 @@
 			)
 		)
 		(property "Value" "DISCHARGE"
-			(at 115.57 147.3199 0)
+			(at 111.76 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.125 144.78 90)
+			(at 107.315 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.125 144.78 90)
+			(at 107.315 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4423,7 @@
 			)
 		)
 		(property "Description" "Electromagnetic actor"
-			(at 111.76 147.32 0)
+			(at 107.95 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +5060,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 250.19 125.73 0)
+		(at 224.79 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4822,7 +5069,7 @@
 		(fields_autoplaced yes)
 		(uuid "a39e71f1-c5c5-4d74-8e75-c5c864fb3777")
 		(property "Reference" "ENERGY_METER_INTERLOCK"
-			(at 250.19 119.38 0)
+			(at 224.79 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +5077,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 250.19 121.92 0)
+			(at 224.79 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 125.73 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +5094,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 125.73 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +5103,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 250.19 125.73 0)
+			(at 224.79 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a85b0fe0-52b3-4aeb-bd4d-6f8dd71b1ad1")
-		(property "Reference" "F2"
+		(property "Reference" "10A"
 			(at 33.02 58.42 90)
 			(effects
 				(font
@@ -5008,7 +5255,7 @@
 		(instances
 			(project "Shutdown_Circuit_KZ2024"
 				(path "/d4c6940e-e35a-479c-8a99-a60b32358073"
-					(reference "F2")
+					(reference "10A")
 					(unit 1)
 				)
 			)
@@ -5016,7 +5263,7 @@
 	)
 	(symbol
 		(lib_id "Device:ElectromagneticActor")
-		(at 204.47 147.32 0)
+		(at 193.04 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5025,7 +5272,7 @@
 		(fields_autoplaced yes)
 		(uuid "b47c3c39-83f0-4edf-b712-16863289376f")
 		(property "Reference" "GigavacGV242BAB_4"
-			(at 208.28 144.7799 0)
+			(at 196.85 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5281,7 @@
 			)
 		)
 		(property "Value" "AIR+"
-			(at 208.28 147.3199 0)
+			(at 196.85 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.835 144.78 90)
+			(at 192.405 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +5299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.835 144.78 90)
+			(at 192.405 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5061,7 +5308,7 @@
 			)
 		)
 		(property "Description" "Electromagnetic actor"
-			(at 204.47 147.32 0)
+			(at 193.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +6088,7 @@
 	)
 	(symbol
 		(lib_id "Device:ElectromagneticActor")
-		(at 140.97 147.32 0)
+		(at 134.62 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5850,7 +6097,7 @@
 		(fields_autoplaced yes)
 		(uuid "f97b4bd7-b476-4df5-b36c-f2bacbad209e")
 		(property "Reference" "GigavacGV242BAB_3"
-			(at 144.78 144.7799 0)
+			(at 138.43 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6106,7 @@
 			)
 		)
 		(property "Value" "PRECHARGE"
-			(at 144.78 147.3199 0)
+			(at 138.43 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.335 144.78 90)
+			(at 133.985 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.335 144.78 90)
+			(at 133.985 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5886,7 +6133,7 @@
 			)
 		)
 		(property "Description" "Electromagnetic actor"
-			(at 140.97 147.32 0)
+			(at 134.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6158,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 149.86 0)
+		(at 134.62 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5919,7 +6166,7 @@
 		(dnp no)
 		(uuid "fa910e1a-0eec-43b3-b0e9-4a4c7dbaf0c6")
 		(property "Reference" "#PWR09"
-			(at 140.97 156.21 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6175,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 141.224 153.416 90)
+			(at 134.874 153.416 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +6184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 149.86 0)
+			(at 134.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 149.86 0)
+			(at 134.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +6202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 149.86 0)
+			(at 134.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +6224,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 222.25 125.73 0)
+		(at 201.93 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5986,7 +6233,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb48824e-d9e8-4c13-a4a5-9f1d612f293a")
 		(property "Reference" "MSD_INTERLOCK"
-			(at 222.25 119.38 0)
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +6241,7 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 222.25 121.92 0)
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6258,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6267,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 222.25 125.73 0)
+			(at 201.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
